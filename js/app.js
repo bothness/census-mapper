@@ -1,6 +1,6 @@
 // API url
 const url = [
-  'http://www.nomisweb.co.uk/api/v01/dataset/NM_618_1.data.tsv?date=latest&geography=1249902593...1249937345&rural_urban=0&cell=',
+  'https://www.nomisweb.co.uk/api/v01/dataset/NM_618_1.data.tsv?date=latest&geography=1249902593...1249937345&rural_urban=0&cell=',
   '&measures=20301&select=geography_code,obs_value&uid=0x3cfb19ead752b37bb90da0eb3a0fe78baa9fa055'
 ];
 
