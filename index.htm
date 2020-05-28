@@ -44,8 +44,14 @@
       <div id="search" class="col-sm-9 col-md-6 col-lg-5 col-xl-4 p-3 mr-auto">
         <p class="font-weight-bold h4">Types of accommodation, 2011</p>
         <div class="form-row mt-2">
-          <div class="col">
-            <select id="selector"></select>
+          <div class="col-7">
+            <select id="selector" class="form-control"></select>
+          </div>
+          <div class="col-5">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="nomis" />
+              <label class="form-check-label" for="nomis">Use Nomis API</label>
+            </div>
           </div>
         </div>
         <div id="legend" class="row px-3 pt-3"></div>
